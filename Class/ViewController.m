@@ -47,8 +47,12 @@
         
         loopView.loopDelegate = self;
         
-        // 隐藏 分页 控制器
-        [loopView setShowPageControl:NO];
+        // 自动 循环 滚动
+        [loopView setIsAuto:YES];
+        
+        
+//        // 隐藏 分页 控制器
+//        [loopView setShowPageControl:NO];
     }
 }
 
